@@ -1,0 +1,42 @@
+/*Permet à la page de descendre progressivement plutot que de sauter
+au clique d'une ancre*/
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* inclus les bordures pour les dimensions */
+  /* reset toutes les marges et padding pour un comportement cohérent */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  
+  /* indique une hauteur d'écran responsive et une largeur max, ainsi qu'une position centrée */
+  
+  body {
+    margin: auto;
+  }
+  
+  /* responsive images/*/
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /*annule le style des liens et liste*/
+  menu,
+  ol,
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
