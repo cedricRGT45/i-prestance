@@ -26,9 +26,6 @@ jobs:
       - name: Fetch code
         uses: actions/checkout@v4
 
-      - name: List directory contents
-        run: ls -R
-
       - name: Install dependencies
         working-directory: ./frontend
         run: npm ci

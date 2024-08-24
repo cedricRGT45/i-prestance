@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/cedricRGT45/i-prestance",
+
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
